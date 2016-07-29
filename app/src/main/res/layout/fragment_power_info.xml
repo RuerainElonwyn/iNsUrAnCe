@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context="com.albertzhang.accelarchwizard.PowerInfoFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/AccelHat"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:src="@drawable/power_white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_text"
+            android:text="Power is the rate of doing work. It is the amount of energy consumed per unit time. Having no direction, it is a scalar quantity."
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtextset"
+            android:text="\n By differentiating our work - time graph once with respect to time, we will obtain a Power - time graph."
+            android:layout_below="@+id/about_text"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtextset2"
+            android:text="\n Note that the SI unit of power is the watt (W), which is Joule per second (J/s). \n \n \n \n \n \n "
+            android:layout_below="@+id/about_subtext"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context="com.albertzhang.accelarchwizard.ForceInfoFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/AccelHat"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:src="@drawable/force_vector_white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_text"
+            android:text="By providing the app with the mass of the object of interest in motion, it is able to calculate the amount of force acting on the object. It can also be used to measure the amount of force over time that a human exert if the object of interest in motion is, for example, you."
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtextset"
+            android:text="\n Force is the rate of momentum change, and using Newton's 3rd law, assuming that the mass of the object in question is constant, the Force equation simplifies form F = dmv/dt to F = ma."
+            android:layout_below="@+id/about_text"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtextset2"
+            android:text="\n This app assumes that the mass of the object of interest does not change over the course of the tracked motion. \n \n \n \n \n \n "
+            android:layout_below="@+id/about_subtext"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+</ScrollView>

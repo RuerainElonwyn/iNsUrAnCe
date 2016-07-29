@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_archwizard"
+            android:icon="@drawable/menu_hat"
+            android:title="Archwizard" />
+        <item
+            android:id="@+id/nav_displacementtime"
+            android:icon="@drawable/displacement"
+            android:title="Displacement Time Graph" />
+        <item
+            android:id="@+id/nav_velocitytime"
+            android:icon="@drawable/velocity_vector"
+            android:title="Velocity Time Graph" />
+        <item
+            android:id="@+id/nav_accelerationtime"
+            android:icon="@drawable/acceleration_vector"
+            android:title="Acceleration Time Graph" />
+        <item
+            android:id="@+id/nav_jerktime"
+            android:icon="@drawable/jerk_vector"
+            android:title="Jerk Time Graph" />
+        <item
+            android:id="@+id/nav_forcetime"
+            android:icon="@drawable/force_vector"
+            android:title="Force Time Graph" />
+        <item
+            android:id="@+id/nav_worktime"
+            android:icon="@drawable/work"
+            android:title="Work Time Graph" />
+        <item
+            android:id="@+id/nav_powertime"
+            android:icon="@drawable/power"
+            android:title="Power Time Graph" />
+        <item
+            android:id="@+id/nav_impulsetime"
+            android:icon="@drawable/impulse_vector"
+            android:title="Impulse Time Graph" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/stats"
+            android:title="Other Parameters" />
+        <item
+            android:id="@+id/dummyitem1"
+            android:title="   " />
+        <item
+            android:id="@+id/dummyitem2"
+            android:title="   " />
+    </group>
+
+</menu>

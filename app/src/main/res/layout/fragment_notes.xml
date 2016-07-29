@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context="com.albertzhang.accelarchwizard.NotesFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/AccelHat"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:src="@drawable/archwizardhatlargest"
+            android:onClick="rotate"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_text"
+            android:text="Just a word before hitting that track button..."
+            android:textSize="18dp"
+            android:gravity="center_horizontal" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtextset"
+            android:text="@string/linearNote"
+            android:layout_below="@+id/about_text"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/axisImage"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:src="@drawable/axisreference"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext2set"
+            android:text="@string/trackActionNote"
+            android:layout_below="@+id/axisImage"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext3"
+            android:text="\n Motion components in the Z and Y axis will be completely ignored by the app and will be omitted from subsequent calculations."
+            android:layout_below="@+id/about_subtext2"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext4"
+            android:text="\n So to avoid errors and inaccurate data, please hold your device such that the motion you wish to track is only in the X axis."
+            android:textColorLink="#FFFFFF"
+            android:autoLink="web"
+            android:layout_below="@+id/about_subtext3"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext5"
+            android:text="\n \n \n"
+            android:textColorLink="#FFFFFF"
+            android:autoLink="email"
+            android:layout_below="@+id/about_subtext4"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.albertzhang.accelarchwizard.AboutFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/AccelHat"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:src="@drawable/archwizardhatlargest"
+        android:onClick="rotate"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_text"
+        android:text="AccelerationArchwizard"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_subtext"
+        android:text="© Albert Zhang 2016"
+        android:layout_below="@+id/about_text"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_subtext2"
+        android:text="\n All visuals are designed in Inkscape or coded manually by path."
+        android:layout_below="@+id/about_subtext"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_subtext3"
+        android:text="Hopefully Android N will include SVG support"
+        android:layout_below="@+id/about_subtext2"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_subtext4"
+        android:text="@string/website.io"
+        android:textColorLink="#FFFFFF"
+        android:autoLink="web"
+        android:layout_below="@+id/about_subtext3"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_subtext5"
+        android:text="@string/feedbackEmail"
+        android:textColorLink="#FFFFFF"
+        android:autoLink="email"
+        android:layout_below="@+id/about_subtext4"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext6"
+            android:text="\n Coded with love by Albert Zhang"
+            android:layout_below="@+id/about_subtext5"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext6.5"
+            android:text="on"
+            android:layout_below="@+id/about_subtext6"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext7"
+            android:text=" April 2016, the last whisper of summer"
+            android:layout_below="@+id/about_subtext6.5"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtext8"
+            android:text="\n Midnight 1:03AM"
+            android:layout_below="@+id/about_subtext6"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_subtextBlank"
+            android:text="\n \n \n \n \n \n \n \n \n \n"
+            android:layout_below="@+id/about_subtext8"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
