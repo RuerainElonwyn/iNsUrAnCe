@@ -4,6 +4,9 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
+    useLibrary 'org.apache.http.legacy'
+
+
     defaultConfig {
         applicationId "com.albertzhang.accelarchwizard"
         minSdkVersion 19
